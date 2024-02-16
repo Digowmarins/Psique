@@ -1,0 +1,77 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.footer * {
+    color: #B70E2A;
+}
+
+
+.footer h1 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.left-section {
+    padding-left: 50px;
+    flex: 1;
+}
+
+.right-section {
+    flex: 1;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.redes {
+    
+}
+
+.redes i {
+    font-size: 40px;
+    padding: 3px;
+    padding-top: 0px;
+}
+
+.redes p {
+    margin-right: 10px;
+}
+
+.redes img {
+    width: 80px; 
+}
+
+.watermark {
+    padding-top: 90px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Altera a direção do flexbox para coluna */
+        align-items: center; /* Centraliza os itens verticalmente */
+        text-align: center; /* Alinha o texto centralmente */
+    }
+
+    .left-section, .right-section {
+        padding: 0; /* Remove o padding lateral */
+        text-align: center; /* Alinha o texto centralmente */
+    }
+
+    .right-section {
+        margin-top: 20px; /* Adiciona um espaço entre as seções */
+    }
+
+    .redes {
+        margin-top: 20px; /* Adiciona um espaço acima das redes sociais */
+    }
+    
+    .redes p {
+        margin: 0 5px; /* Adiciona um pequeno espaçamento entre o texto e os ícones */
+    }
+}

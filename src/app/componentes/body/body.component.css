@@ -1,0 +1,265 @@
+.body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 50px;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.banner img {
+    width: 85%;
+}
+
+.banner i {
+    font-size: 30px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+.projeto-inicial {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto-inicial img {
+    width: 100%;
+}
+
+.mission-values {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    
+}
+
+.mission-values img {
+    width: 70%;
+}
+
+
+.loc {
+    position: relative;
+    text-align: center;
+    margin-top: 20px; 
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-bottom: 300px;
+}
+
+.loc h1 {
+    font-size: 70px;
+    color: #B70E2A;
+    margin-bottom: 100px; 
+}
+
+.loc img {
+    width: 100%;
+    display: block;
+}
+
+.mural {
+    position: relative;
+    text-align: center;
+    margin-right: 17vw;
+    margin-left: 17vw;
+    margin-bottom: 300px;
+}
+
+.mural h1 {
+    font-size: 70px;
+    color: #B70E2A;
+    margin-bottom: 100px; 
+}
+
+.mural img {
+    width: 100%;
+    display: block;
+}
+
+
+.rematricula {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to right, #B70E2A, rgba(183, 14, 42, 0)); 
+    overflow: hidden; 
+}
+
+.rematricula img {
+    width: 100%;
+    display: block;
+}
+
+.texto1, .texto2 {
+    position: absolute;
+    top: 50%;
+    color: #fff; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.texto1 {
+    text-align: left;
+    top: calc(30% + 20px); 
+    left: 5vw;
+}
+
+.texto1 h1 {
+    font-size: 60px;
+}
+
+.texto1 p {
+    font-size: 30px;
+}
+
+.texto1 button {
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 30px;
+    background-color: #8AB120;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+}
+
+.texto2 {
+    top: calc(30% + 20px);
+    right: 5vw;
+    background-color: #ffffff33;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .banner i {
+        font-size: 30px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .mission-values {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 120px;
+        padding-bottom: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .mission-values img {
+        width: 100%;
+    }
+
+    .loc {
+        margin-right: 5vw;
+        margin-left: 5vw;
+        margin-bottom: 100px;
+    }
+
+    .loc h1 {
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+
+
+    .mural {
+        margin-right: 5vw;
+        margin-left: 5vw;
+        margin-bottom: 100px;
+    }
+
+    .mural h1 {
+        font-size: 40px;
+        margin-bottom: 70px;
+    }
+
+    .rematricula {
+        position: relative;
+        width: 100%;
+        background: linear-gradient(to right, #B70E2A, rgba(183, 14, 42, 0)); 
+        overflow: hidden; 
+    }
+    
+    .rematricula img {
+        width: 100%;
+        display: block;
+    }
+    
+    .texto1, .texto2 {
+        position: absolute;
+        top: 50%;
+        color: #fff; 
+        font-size: 24px; 
+        font-weight: bold; 
+        text-align: center; 
+    }
+    
+    .texto1 {
+        text-align: left;
+        top: calc(30% + 20px); 
+        left: 5vw;
+    }
+    
+    .texto1 h1 {
+        font-size: 20px;
+    }
+    
+    .texto1 p {
+        font-size: 10px;
+    }
+    
+    .texto1 button {
+        margin-top: 10px;
+        border-radius: 12px;
+        padding: 10px;
+        background-color: #8AB120;
+        color: #fff;
+        font-size: 12px;
+        border: none;
+    }
+    
+    .texto2 {
+        top: calc(13% + 20px);
+        right: 2vw;
+        background-color: #ffffff33;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    .texto2 p {
+        font-size: 12px;
+    }
+
+    .texto2 h1 {
+        font-size: 16px;
+        margin-top: 3px;
+    }
+
+
+}

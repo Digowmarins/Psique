@@ -1,0 +1,25 @@
+<div class="menu">
+    <div class="menu-mobile mobile-only" (click)="toggleMenuOpen()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="options_mobile" [ngClass]="{'slideInAnimation': isMenuOpen, 'slideOutAnimation': !isMenuOpen}">
+        <div class="options_mobile_content mobile-only">
+            <p>Home</p>
+            <p>Sobre a Escola</p>
+            <p>Avisos</p>
+            <p>Matrículas</p>
+        </div>
+    </div>
+    <img src="../../../assets/psiquelogo.png" alt="logo psiquê" class="logo">
+    <div class="opcoes desktop-only">
+        <p>Home</p>
+        <p>Sobre a Escola</p>
+        <p>Avisos</p>
+        <p>Matrículas</p>
+    </div>
+    <div class="redes">
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-square-facebook"></i>    
+    </div>
+</div>

@@ -1,0 +1,123 @@
+.menu { 
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-left: 120px;
+    margin-right: 140px;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes p {
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.logo { 
+    width: 60px;
+    height: 60px;
+}
+
+.redes i {
+    font-size: 30px;
+    color: #B70E2A;
+    padding: 3px;
+}
+
+.mobile-only {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) { 
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: inline;
+    }
+
+    .menu {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10vw;
+        margin-right: 6vw;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .options_mobile {
+        display: none;
+    }
+
+    .options_mobile_content p {
+        padding-bottom: 3px;
+
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .redes i {
+        font-size: 20px;
+    }
+
+
+    @keyframes slideAnimation {
+        from {
+            transform: translateX(var(--start, 0));
+        }
+        to {
+            transform: translateX(var(--end, 0));
+        }
+    }
+
+
+    .slideInDirAnimation {
+        animation: slideAnimation 0.45s ease forwards;
+        --start: 100%;
+        --end: 0;
+    }
+
+    .slideInAnimation {
+        animation: slideAnimation 0.45s ease forwards;
+        --start: -100%;
+        --end: 0;
+    }
+
+    @keyframes slideOutAnimation {
+        from {
+            transform: translateX(var(--start, 0));
+        }
+        to {
+            transform: translateX(var(--end, 0));
+        }
+    }
+
+    .slideOutAnimation {
+        animation: slideOutAnimation 0.45s ease-in-out;
+        --start: 0;
+        --end: -100%;
+    }
+
+    .slideOutDirAnimation {
+        animation: slideOutAnimation 0.45s ease-in-out;
+        --start: 0;
+        --end: 100%;
+    }
+}
