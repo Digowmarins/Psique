@@ -141,7 +141,7 @@
 .rematricula {
     position: relative;
     width: 100%;
-    background: linear-gradient(to right, #B70E2A, rgba(183, 14, 42, 0)); 
+    background: linear-gradient(to right, #B70E2A, rgba(183, 14, 42, 0.658)); 
     overflow: hidden; 
 }
 
@@ -235,8 +235,8 @@
 
 
     .mural {
-        /* margin-right: 5vw;
-        margin-left: 5vw; */
+        margin-right: 5px;
+        margin-left: 5px; 
         margin-bottom: 100px;
     }
 
@@ -286,7 +286,7 @@
         bottom: 10px;
         left: 50%;
         transform: translateX(-50%);
-        padding: 0px 7px; 
+        padding: 3px 7px; 
         background-color: #B70E2A; 
         color: white; 
         border: none;

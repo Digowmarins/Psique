@@ -1,12 +1,14 @@
 .menu { 
     display: flex;
     margin-top: 20px;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
     overflow-x: hidden;
     overflow-y: auto;
     margin-left: 120px;
     margin-right: 140px;
+    position: relative;
 }
 
 .opcoes {
@@ -15,14 +17,18 @@
     align-items: center;
 }
 
-.opcoes p {
+.opcoes a {
     font-size: 18px;
     margin-left: 30px;
+    text-decoration: none;
+    color: black;
 }
 
 .logo { 
     width: 60px;
     height: 60px;
+    justify-content: flex-start;
+    
 }
 
 .redes i {
@@ -32,6 +38,10 @@
 }
 
 .mobile-only {
+    display: none;
+}
+
+.options_mobile {
     display: none;
 }
 
@@ -47,6 +57,7 @@
 
     .menu {
         width: 80%;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -62,9 +73,11 @@
         display: none;
     }
 
-    .options_mobile_content p {
-        padding-bottom: 3px;
-
+    .options_mobile_content a {
+        display: block;
+        text-decoration: none; 
+        color: inherit;
+        padding: 3px;
     }
 
     .redes {
