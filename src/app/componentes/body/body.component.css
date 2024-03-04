@@ -159,6 +159,7 @@
     text-align: left;
     top: calc(30%); 
     left: 5vw;
+    max-width: calc(45vw - 5vw);
 }
 
 .texto1 h1 {
@@ -177,6 +178,7 @@
     color: #fff;
     font-size: 2vw;
     border: none;
+    cursor: pointer;
 }
 
 .texto2 {

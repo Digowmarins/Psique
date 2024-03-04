@@ -7,7 +7,6 @@ import { PortalComponent } from './componentes/portal/portal.component';
 
 const routes: Routes = [
   { path: '', component: BodyComponent },
-  { path: 'portal', component: PortalComponent },
 ];
 
 @NgModule({
