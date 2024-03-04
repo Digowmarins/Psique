@@ -89,8 +89,6 @@
 .mural-content {
     position: relative;
     text-align: center;
-    /* margin-right: 17vw;
-    margin-left: 17vw; */
     margin-bottom: 0px;
     display: flex;
     justify-content: space-around; 
@@ -152,25 +150,23 @@
 
 .texto1, .texto2 {
     position: absolute;
-    top: 50%;
     color: #fff; 
-    font-size: 24px; 
     font-weight: bold; 
     text-align: center; 
 }
 
 .texto1 {
     text-align: left;
-    top: calc(30% + 20px); 
+    top: calc(30%); 
     left: 5vw;
 }
 
 .texto1 h1 {
-    font-size: 60px;
+    font-size: 5vw;
 }
 
 .texto1 p {
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .texto1 button {
@@ -179,16 +175,27 @@
     padding: 30px;
     background-color: #8AB120;
     color: #fff;
-    font-size: 30px;
+    font-size: 2vw;
     border: none;
 }
 
 .texto2 {
-    top: calc(30% + 20px);
+    top: calc(20%);
     right: 5vw;
     background-color: #ffffff33;
     border-radius: 25px;
     padding: 50px;
+}
+
+.texto2 p {
+    font-size: 2vw;
+}
+
+
+.texto2 h1 {
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 1.5vw;
 }
 
 @media only screen and (max-width: 768px) {
@@ -250,16 +257,17 @@
         text-align: center;
         margin-bottom: 0px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around; 
         width: 100%;
     }
     
     .mural-content div {
-        width: 100%; 
+        width: 46%; 
         height: 100%;
         display: inline-block; 
         margin: 3px;
-        margin-bottom: 0px;
+        margin-bottom: 15px;
         border: 2px solid #B70E2A;
         border-radius: 30px;
         background-color: white; 
@@ -299,7 +307,7 @@
     .rematricula {
         position: relative;
         width: 100%;
-        background: linear-gradient(to right, #B70E2A, rgba(183, 14, 42, 0)); 
+
         overflow: hidden; 
     }
     
@@ -311,51 +319,50 @@
     .texto1, .texto2 {
         position: absolute;
         top: 50%;
-        color: #fff; 
-        font-size: 24px; 
+        color: #fff;       
         font-weight: bold; 
         text-align: center; 
     }
     
     .texto1 {
         text-align: left;
-        top: calc(30% + 20px); 
+        top: calc(30%); 
         left: 5vw;
     }
     
     .texto1 h1 {
-        font-size: 20px;
+        font-size: 5vw;
     }
     
     .texto1 p {
-        font-size: 10px;
+        font-size: 3vw;
     }
     
     .texto1 button {
         margin-top: 10px;
         border-radius: 12px;
-        padding: 10px;
+        padding: 2vw;
         background-color: #8AB120;
         color: #fff;
-        font-size: 12px;
+        font-size: 3vw;
         border: none;
     }
     
     .texto2 {
-        top: calc(13% + 20px);
+        top: calc(20%);
         right: 2vw;
         background-color: #ffffff33;
         border-radius: 25px;
-        padding: 10px;
+        padding: 5vw;
     }
 
     .texto2 p {
-        font-size: 12px;
+        font-size: 2vw;
     }
 
     .texto2 h1 {
-        font-size: 16px;
-        margin-top: 3px;
+        font-size: 2vw;
+        margin-top: 6px;
     }
 
 

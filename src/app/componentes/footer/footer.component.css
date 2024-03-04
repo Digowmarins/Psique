@@ -28,8 +28,9 @@
     padding-right: 50px;
 }
 
-.redes {
-    
+
+.contatos a {
+     display: block;
 }
 
 .redes i {
@@ -53,25 +54,25 @@
 
 @media only screen and (max-width: 768px) {
     .footer {
-        flex-direction: column; /* Altera a direção do flexbox para coluna */
-        align-items: center; /* Centraliza os itens verticalmente */
-        text-align: center; /* Alinha o texto centralmente */
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
     }
 
     .left-section, .right-section {
-        padding: 0; /* Remove o padding lateral */
-        text-align: center; /* Alinha o texto centralmente */
+        padding: 0; 
+        text-align: center;
     }
 
     .right-section {
-        margin-top: 20px; /* Adiciona um espaço entre as seções */
+        margin-top: 20px;
     }
 
     .redes {
-        margin-top: 20px; /* Adiciona um espaço acima das redes sociais */
+        margin-top: 20px; 
     }
     
     .redes p {
-        margin: 0 5px; /* Adiciona um pequeno espaçamento entre o texto e os ícones */
+        margin: 0 5px; 
     }
 }

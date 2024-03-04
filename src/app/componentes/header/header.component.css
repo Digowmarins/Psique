@@ -1,14 +1,13 @@
 .menu { 
     display: flex;
-    margin-top: 20px;
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    overflow-x: hidden;
-    overflow-y: auto;
-    margin-left: 120px;
-    margin-right: 140px;
-    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    padding: 20px;
+    z-index: 2;
 }
 
 .opcoes {
@@ -28,7 +27,11 @@
     width: 60px;
     height: 60px;
     justify-content: flex-start;
-    
+    margin-left: 6.7vw;
+}
+
+.redes {
+    margin-right: 9vw;
 }
 
 .redes i {
@@ -56,21 +59,25 @@
     }
 
     .menu {
-        width: 80%;
         height: auto;
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: space-between;
-        margin-left: 10vw;
-        margin-right: 6vw;
+        justify-content: space-between; */
+        position: fixed;
+        padding: 0;
     }
 
     .logo {
         margin-left: 10px;
     }
 
+    .menu-mobile {
+        margin-left: 9vw;
+    }
+
     .options_mobile {
         display: none;
+        padding-bottom: 7px;
     }
 
     .options_mobile_content a {
@@ -83,7 +90,7 @@
     .redes {
         display: flex;
         justify-content: center;
-        
+        margin-right: 6vw;
     }
 
     .redes i {
