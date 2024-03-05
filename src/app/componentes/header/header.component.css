@@ -10,17 +10,19 @@
     z-index: 2;
 }
 
-.opcoes {
+.options {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-.opcoes a {
+.options a {
     font-size: 18px;
     margin-left: 30px;
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .logo { 
@@ -30,21 +32,25 @@
     margin-left: 6.7vw;
 }
 
-.redes {
+.social-media {
     margin-right: 9vw;
 }
 
-.redes i {
+.social-media i {
     font-size: 30px;
     color: #B70E2A;
     padding: 3px;
+}
+
+.social-media a {
+    cursor: pointer;
 }
 
 .mobile-only {
     display: none;
 }
 
-.options_mobile {
+.options-mobile {
     display: none;
 }
 
@@ -75,25 +81,40 @@
         margin-left: 9vw;
     }
 
-    .options_mobile {
+    .options-mobile {
         display: none;
         padding-bottom: 7px;
+        width: 100%; 
+        height: 100vh;
+        /* position: absolute;   */
+        top: 0.1px; 
+        right: 0;  
+        background-color: #ffffff;
+        z-index: 1000;
+        overflow: hidden;
+        position: fixed;
     }
 
-    .options_mobile_content a {
+    .options-mobile-content a {
         display: block;
         text-decoration: none; 
         color: inherit;
-        padding: 3px;
+        cursor: pointer;
+        padding: 15px;
+        margin: 0;
+        text-align: left;
+        margin-bottom: 5px;
+        color: #000000; 
+        z-index: 3; 
     }
 
-    .redes {
+    .social-media {
         display: flex;
         justify-content: center;
         margin-right: 6vw;
     }
 
-    .redes i {
+    .social-media i {
         font-size: 20px;
     }
 

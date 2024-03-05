@@ -29,21 +29,21 @@
 }
 
 
-.contatos a {
+.support a {
      display: block;
 }
 
-.redes i {
+.social-media i {
     font-size: 40px;
     padding: 3px;
     padding-top: 0px;
 }
 
-.redes p {
+.social-media p {
     margin-right: 10px;
 }
 
-.redes img {
+.social-media img {
     width: 80px; 
 }
 
@@ -68,11 +68,11 @@
         margin-top: 20px;
     }
 
-    .redes {
+    .social-media {
         margin-top: 20px; 
     }
     
-    .redes p {
+    .social-media p {
         margin: 0 5px; 
     }
 }

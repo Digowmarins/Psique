@@ -10,15 +10,35 @@ export class HeaderComponent {
 
   toggleMenuOpen() {
     this.isMenuOpen = !this.isMenuOpen;
-    console.log("clicado")
     if (this.isMenuOpen) {
-      const menu = document.querySelector('.options_mobile') as HTMLElement;
+      const menu = document.querySelector('.options-mobile') as HTMLElement;
       menu.style.display = 'block';
     } else {
       setTimeout(() => {
-        const menu = document.querySelector('.options_mobile') as HTMLElement;
+        const menu = document.querySelector('.options-mobile') as HTMLElement;
         menu.style.display = 'none';
       }, 450); // Tempo de espera, ajuste conforme a duração da animação
     }
+  }
+
+
+  scrollToElement(id: string) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }
+  }
+
+
+  redirectToFacebook() {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    const facebookUrl = isMobile ? 'https://m.facebook.com/escolapsique/' : 'https://www.facebook.com/escolapsique/';
+    window.open(facebookUrl, '_blank');
+  }
+
+
+  scrollToElementAndCloseMenu(id: string) {
+    this.scrollToElement(id);
+    this.toggleMenuOpen();
   }
 }

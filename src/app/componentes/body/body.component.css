@@ -24,14 +24,14 @@
 }
 
 
-.projeto-inicial {
+.initial-project {
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.projeto-inicial img {
+.initial-project img {
     width: 100%;
 }
 
@@ -52,7 +52,7 @@
 }
 
 
-.loc {
+.location {
     position: relative;
     text-align: center;
     margin-top: 20px; 
@@ -61,18 +61,18 @@
     margin-bottom: 300px;
 }
 
-.loc h1 {
+.location h1 {
     font-size: 70px;
     color: #B70E2A;
     margin-bottom: 100px; 
 }
 
-.loc img {
+.location img {
     width: 100%;
     display: block;
 }
 
-.mural {
+.notifications-board {
     position: relative;
     text-align: center;
     margin-right: 10vw;
@@ -80,13 +80,13 @@
     margin-bottom: 300px;
 }
 
-.mural h1 {
+.notifications-board h1 {
     font-size: 70px;
     color: #B70E2A;
     margin-bottom: 100px; 
 }
 
-.mural-content {
+.notifications-board-content {
     position: relative;
     text-align: center;
     margin-bottom: 0px;
@@ -95,7 +95,7 @@
     width: 100%;
 }
 
-.mural-content div {
+.notifications-board-content div {
     width: 100%; 
     height: 100%;
     display: inline-block; 
@@ -108,21 +108,21 @@
     position: relative;
 }
 
-.mural-content div p {
+.notifications-board-content div p {
     font-size: 30px;
     color: white;
     padding: 15px;
     background-color: #B70E2A;
 }
 
-.mural-content div img {
+.notifications-board-content div img {
     max-width: 100%; 
     max-height: 100%; 
     display: block;
     margin: auto; 
 }
 
-.mural-content div .ver-mais {
+.notifications-board-content div .see-more {
     position: absolute; 
     bottom: 10px;
     left: 50%;
@@ -136,41 +136,41 @@
 }
 
 
-.rematricula {
+.registration {
     position: relative;
     width: 100%;
     background: linear-gradient(to right, #B70E2A, rgba(183, 14, 42, 0.658)); 
     overflow: hidden; 
 }
 
-.rematricula img {
+.registration img {
     width: 100%;
     display: block;
 }
 
-.texto1, .texto2 {
+.text-registration, .text-poem {
     position: absolute;
     color: #fff; 
     font-weight: bold; 
     text-align: center; 
 }
 
-.texto1 {
+.text-registration {
     text-align: left;
     top: calc(30%); 
     left: 5vw;
     max-width: calc(45vw - 5vw);
 }
 
-.texto1 h1 {
+.text-registration h1 {
     font-size: 5vw;
 }
 
-.texto1 p {
+.text-registration p {
     font-size: 2vw;
 }
 
-.texto1 button {
+.text-registration button {
     margin-top: 20px;
     border-radius: 12px;
     padding: 30px;
@@ -181,7 +181,7 @@
     cursor: pointer;
 }
 
-.texto2 {
+.text-poem {
     top: calc(20%);
     right: 5vw;
     background-color: #ffffff33;
@@ -189,12 +189,12 @@
     padding: 50px;
 }
 
-.texto2 p {
+.text-poem p {
     font-size: 2vw;
 }
 
 
-.texto2 h1 {
+.text-poem h1 {
     font-style: italic;
     margin-top: 15px;
     font-size: 1.5vw;
@@ -231,30 +231,30 @@
         width: 100%;
     }
 
-    .loc {
+    .location {
         margin-right: 5vw;
         margin-left: 5vw;
         margin-bottom: 100px;
     }
 
-    .loc h1 {
+    .location h1 {
         font-size: 40px;
         margin-bottom: 100px;
     }
 
 
-    .mural {
+    .notifications-board {
         margin-right: 5px;
         margin-left: 5px; 
         margin-bottom: 100px;
     }
 
-    .mural h1 {
+    .notifications-board h1 {
         font-size: 40px;
         margin-bottom: 70px;
     }
 
-    .mural-content {
+    .notifications-board-content {
         position: relative;
         text-align: center;
         margin-bottom: 0px;
@@ -264,7 +264,7 @@
         width: 100%;
     }
     
-    .mural-content div {
+    .notifications-board-content div {
         width: 46%; 
         height: 100%;
         display: inline-block; 
@@ -277,21 +277,21 @@
         position: relative;
     }
     
-    .mural-content div p {
+    .notifications-board-content div p {
         font-size: 10px;
         color: white;
         padding: 15px;
         background-color: #B70E2A;
     }
     
-    .mural-content div img {
+    .notifications-board-content div img {
         width: 100%; 
         height: 100%; 
         display: block;
         margin: auto; 
     }
     
-    .mural-content div .ver-mais {
+    .notifications-board-content div .see-more {
         position: absolute; 
         bottom: 10px;
         left: 50%;
@@ -306,19 +306,19 @@
     }
     
 
-    .rematricula {
+    .registration {
         position: relative;
         width: 100%;
 
         overflow: hidden; 
     }
     
-    .rematricula img {
+    .registration img {
         width: 100%;
         display: block;
     }
     
-    .texto1, .texto2 {
+    .text-registration, .text-poem {
         position: absolute;
         top: 50%;
         color: #fff;       
@@ -326,21 +326,21 @@
         text-align: center; 
     }
     
-    .texto1 {
+    .text-registration {
         text-align: left;
         top: calc(30%); 
         left: 5vw;
     }
     
-    .texto1 h1 {
+    .text-registration h1 {
         font-size: 5vw;
     }
     
-    .texto1 p {
+    .text-registration p {
         font-size: 3vw;
     }
     
-    .texto1 button {
+    .text-registration button {
         margin-top: 10px;
         border-radius: 12px;
         padding: 2vw;
@@ -350,7 +350,7 @@
         border: none;
     }
     
-    .texto2 {
+    .text-poem {
         top: calc(20%);
         right: 2vw;
         background-color: #ffffff33;
@@ -358,11 +358,11 @@
         padding: 5vw;
     }
 
-    .texto2 p {
+    .text-poem p {
         font-size: 2vw;
     }
 
-    .texto2 h1 {
+    .text-poem h1 {
         font-size: 2vw;
         margin-top: 6px;
     }
