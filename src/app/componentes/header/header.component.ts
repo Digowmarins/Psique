@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   isMenuOpen: boolean = false;
 
+  reloadPage() {
+    window.location.reload();
+  }
+
   toggleMenuOpen() {
     this.isMenuOpen = !this.isMenuOpen;
     if (this.isMenuOpen) {

@@ -1,9 +1,11 @@
 <div id="home" class="body desktop-only">
-    <div class="banner">
-        <i class="fa-solid fa-angle-left"></i>
-        <img src="../../../assets/bannerpsique.jpg" alt="">
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
+    <div class="carousel">
+        <div class="banner-container">
+          <div *ngFor="let banner of banners; let i = index" class="banner" [ngClass]="{ 'active': i === currentSlideIndex }" [ngStyle]="{'transform': i === currentSlideIndex ? 'translateX(0)' : 'translateX(100%)', 'opacity': i === currentSlideIndex ? 1 : 0, 'z-index': i === currentSlideIndex ? 1 : 0}">
+            <img [src]="banner" alt="Banner">
+          </div>
+        </div>
+      </div>
     <div id="sobre" class="initial-project">
         <img src="../../../assets/initial-project-psique.jpg" alt="">
     </div>
@@ -20,17 +22,17 @@
         <h1>Mural de avisos</h1>
         <div class="notifications-board-content">
             <div>
-                <p>Período de Provas</p>
+                <p>Período de <br> Provas</p>
                 <img src="../../../assets/exams.jpg" alt="">
                 <button class="see-more">Ver Mais</button>
             </div>
             <div>
-                <p>Início do ano letivo</p>
+                <p>Início do <br> ano letivo</p>
                 <img src="../../../assets/academic-year.jpg" alt="">
                 <button class="see-more">Ver Mais</button>
             </div>
             <div>
-                <p>Período de Matrículas</p>
+                <p>Período de <br> Matrículas</p>
                 <img src="../../../assets/back-to-school.jpg" alt="">
                 <button class="see-more">Ver Mais</button>
             </div>
@@ -48,9 +50,9 @@
                 uma pedra no meio do caminho tinha uma <br> 
                 pedra no meio do caminho tinha uma pedra. <br> 
                 Nunca me esquecerei desse acontecimento na <br> 
-                vida de minhas retinas tão fatigadas. Nunca me <br>
-                esquecerei que no meio do caminho tinha uma <br>
-                pedratinha uma pedra no meio do caminho no <br> 
+                vida de minhas retinas tão fatigadas. <br> 
+                Nunca me esquecerei que no meio do caminho tinha uma
+                pedratinha uma pedra no meio do caminho no
                 meio do caminho tinha uma pedra.</p>
             <h1>Carlos Drummond de Andrade</h1>
         </div>
