@@ -100,7 +100,7 @@
 }
 
 .location h1 {
-    font-size: 70px;
+    font-size: 3vw;
     color: #B70E2A;
     margin-bottom: 100px; 
 }
@@ -115,7 +115,7 @@
 }
 
 .notifications-board h1 {
-    font-size: 70px;
+    font-size: 3vw;
     color: #B70E2A;
     margin-bottom: 100px; 
 }
@@ -222,6 +222,7 @@
     border-radius: 25px;
     padding: 50px;
     width: 40%;
+    word-wrap: break-word;
 }
 
 .text-poem p {
@@ -261,7 +262,7 @@
     }
 
     .location h1 {
-        font-size: 40px;    
+        font-size: 20px;    
     }
 
     .notifications-board {
@@ -271,7 +272,7 @@
     }
 
     .notifications-board h1 {
-        font-size: 40px;
+        font-size: 20px;
         margin-bottom: 70px;
     }
 
@@ -280,7 +281,7 @@
     }
     
     .notifications-board-content div {
-        width: 46%;                
+        width: 40%;                
         margin: 3px;
         margin-bottom: 15px;                      
     }

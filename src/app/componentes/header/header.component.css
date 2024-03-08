@@ -75,7 +75,8 @@
     }
 
     .logo {
-        margin-left: 10px;
+        margin-left: 0px;
+        margin-right: 6%;
     }
 
     .menu-mobile {

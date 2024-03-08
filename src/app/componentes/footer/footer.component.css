@@ -6,6 +6,7 @@
     background-color: #B70E2A;
     padding: 30px 0px 0px 0px;
     overflow: hidden;
+    margin-top: 120px;
 }
 
 .footer * {
@@ -13,9 +14,9 @@
 }
 
 .footer h1 {
-    font-size: 30px;
+    font-size: 17px;
     display: inline;
-    margin: 0;  
+    margin: 0;
 }
 
 .footer-links {
@@ -42,7 +43,7 @@
 }
 
 .social-media i {
-    font-size: 40px;
+    font-size: 35px;
     padding: 3px;
 }
 
@@ -54,7 +55,16 @@
     margin-top: 15px;
 }
 
+.watermark p {
+    font-size: 13px;
+}
+
 @media only screen and (max-width: 768px) {
+
+    .footer {
+        margin-top: 70px;
+    }
+
     .footer h1 {
         font-size: 24px; 
     }
@@ -63,13 +73,21 @@
         margin-top: 10px;
     }
 
+    .social-media i {
+        font-size: 25px;
+    }
+
     .footer-links {
         margin: 0px 20px 20px 20px;
     }
 
 
     .footer-links a {
-        font-size: 4vw;
+        font-size: 13px;
         padding: 10px;
+    }
+
+    .watermark p {
+        font-size: 9px;
     }
 }
